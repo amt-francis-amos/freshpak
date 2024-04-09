@@ -145,6 +145,12 @@ nav ul li a:hover::after{
     margin-top:5em;
 }
 
+
+
+.content-box a{
+    gap:1em;
+}
+
 .hero-content h1{
     font-size:2rem;
     color:var(--light-color);
@@ -192,9 +198,6 @@ header{
     }
 
 
-    .hero-content{
-
-    }
-
+   
     
 }
