@@ -34,6 +34,7 @@ header {
   position: fixed;
   top: 0;
   z-index: 1;
+  box-shadow:0px 0px 10px rgba(0, 0, 0, 0.6);
 }
 
 .header-row {
@@ -153,6 +154,38 @@ nav ul li a:hover::after {
 /* ---- END OF HERO STYLING---- */
 
 
+/* ---- VISION & MISSION--- */
+.company-container{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(3,  1fr);
+    gap:5em;
+}
+
+.company-info {
+    text-align:center;
+}
+
+
+
+.company-info h1{
+    margin-bottom:1em;
+    font-weight:bold;
+}
+
+
+
+
+/* ----END OF  VISION & MISSION--- */
+
+
+
+
+
+
+
+
+
 
 
 /* ----- FOOTER STYLING ------- */
@@ -168,29 +201,42 @@ footer {
 .footer-container{
     width:100%;
     display:grid;
-    grid-template-columns:repeat(4,  1fr);
+    grid-template-columns:repeat(4, 1fr);
     gap:5em;
 }
 
 .footer-details h1{
     color:var(--lemon-green);
-    font-size:2rem;
+    font-size:1.5rem;
     margin-bottom:0.5em;
 }
 
-
-.footer-details p{
-    max-width:600px;
+.footer-details h4{
+    margin-top:0.5em;
+    color: var(--lemon-green);
 }
+
+
 
 
 .copyright{
     text-align:center;
-   
+    margin-top:4em;
 }
 
 
+.footer-details ul{
+    list-style:none;
+}
 
+.footer-details ul li{
+    margin:10px 0;
+}
+
+.footer-details ul li a{
+    color:var(--light-color);
+    font-size:0.9rem;
+}
 
 
 
