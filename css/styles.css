@@ -18,7 +18,7 @@ body{
 
 :root{
    --lemon-green:#9bff03;
-   --green-color:#014200;
+   --green-color:#056203;
    --light-color:#fff;
    --dark-color:#000;  
 }
@@ -34,21 +34,19 @@ body{
 
 
 .header-row{
-    width:100%;
-    height:88px;
     display:flex;
     align-items:center;
-    justify-content:space-between;
-    background:#fff;
-    padding:2% 5.5%;
-    box-shadow:0px 0px 10px rgba(0,0,0,0.2);
-    position:sticky;
-    top:0;
-    left:0;
+    justify-content:space-between; 
 }
 
 .site-logo img{
-    width:120px;
+    width:150px;
+}
+
+.site-nav{
+    display:flex;
+    align-items:center;
+    gap:2em;
 }
 
 
@@ -60,6 +58,13 @@ nav ul{
 nav ul li{
     display:inline-block;
     margin:10px 20px;
+}
+
+
+nav ul li a{
+    font-size:0.9rem;
+    color:var(--green-color);
+    font-weight:700;
 }
 
 nav ul li a::after{
@@ -74,10 +79,73 @@ nav ul li a::after{
 }
 
 
+
 nav ul li a:hover::after{
    width:100%;
 }
 
 
 
+
+.btn{
+    background:var(--green-color);
+    color:var(--light-color);
+    width:150px;
+    height:45px;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:5px;
+
+}
+
+
+.btn:hover{
+    background:var(--lemon-green);
+}
+
+
 /* -----END OF  HEADER STYLING------- */
+
+
+
+/* ------ HERO STYLING----- */
+.hero-img{
+    width: 100%;
+    min-height:370px;
+    background:var(--green-color);
+    background-size:cover;
+    background-position:center;
+}
+
+
+.hero-content{
+    max-width:600px;
+     text-align:center;
+     margin:auto;
+}
+
+.hero-content h1{
+    font-size:2rem;
+    color:var(--light-color);
+    margin-bottom:1em;
+}
+
+.hero-content h2{
+    color:var(--lemon-green);
+}
+
+
+.hero-content .btn-1{
+    background:var(--lemon-green);
+    margin-top:1.5em;
+    color:var(--green-color);
+}
+
+.hero-content .btn-1:hover{
+    background:var(--green-color);
+    color:var(--light-color);
+    border:1px solid var(--lemon-green);
+}
+
+/* ---- END OF HERO STYLING---- */
