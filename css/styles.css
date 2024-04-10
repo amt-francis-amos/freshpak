@@ -308,7 +308,34 @@ nav ul li a:hover::after {
 }
 
 
+.form-wrapper{
+  background:var(--green-color);
+  border-radius:8px;
+  width:400px;
+  height:400px;
 
+}
+
+.form-wrapper form{
+  padding:3em;
+}
+
+
+.form-wrapper label{
+   color:var(--lemon-green);
+}
+
+
+
+.form-wrapper form input,textarea{
+  width:100%;
+  padding:0.9em 1em;
+  margin:0.8em 0;
+  border:none;
+  outline:none;
+  border-radius:5px;
+  resize:none;
+}
 
 
 
