@@ -191,7 +191,7 @@ nav ul li a:hover::after {
 
 .about-img{
   background-image: linear-gradient(rgba(109, 214, 18, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/green.jpg");
+    url("../images/img-1.jpeg");
 }
 
 /* ------END OF ABOUT PAGE STYLING---- */
