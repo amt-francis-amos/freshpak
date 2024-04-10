@@ -338,8 +338,9 @@ nav ul li a:hover::after {
 }
 
 
-
-
+.btn-2{
+  border:1px solid var(--lemon-green)
+}
 
 
 
@@ -586,7 +587,15 @@ footer {
 
 
 
+.contact-container{
+  grid-template-columns:repeat(1,  1fr);
+  text-align:center;
+  
+}
 
+.form-wrapper{
+  margin:auto;
+}
 
 
 
