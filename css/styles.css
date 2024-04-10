@@ -205,7 +205,12 @@ nav ul li a:hover::after {
 .about-img h1{
   color:var(--light-color);
   font-size:3rem;
+}
 
+.about-info h1{
+  color:var(--green-color);
+  font-size:2rem;
+  margin-bottom:0.3em;
 }
 
 
