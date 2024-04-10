@@ -190,8 +190,30 @@ nav ul li a:hover::after {
 /* ------ABOUT PAGE STYLING---- */
 
 .about-img{
-  background-image: linear-gradient(rgba(109, 214, 18, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/img-1.jpeg");
+  background:#054709;
+}
+
+.title{
+   min-height:30vh;
+   margin-top:5em;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+}
+
+
+.about-img h1{
+  color:var(--light-color);
+  font-size:3rem;
+
+}
+
+
+.about-container{
+  width:100%;
+  display:grid;
+  grid-template-columns:repeat(2,  1fr);
+  gap:3em;
 }
 
 /* ------END OF ABOUT PAGE STYLING---- */
