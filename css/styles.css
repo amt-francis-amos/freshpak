@@ -323,7 +323,7 @@ footer {
     padding:10px;
     border-radius: 50%;
     background-color:var(--light-color);
-    
+    transition:.3s;
 }
 
 .social-media i:hover{
