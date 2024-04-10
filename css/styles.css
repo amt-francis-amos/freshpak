@@ -168,10 +168,16 @@ nav ul li a:hover::after {
 }
 
 
+.company-info p{
+     font-size:0.9rem;
+     color:#585858;
+}
+
 
 .company-info h1{
     margin-bottom:1em;
     font-weight:bold;
+    color:var(--green-color);
 }
 
 
