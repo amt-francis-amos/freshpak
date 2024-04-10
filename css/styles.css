@@ -474,6 +474,27 @@ footer {
 }
 
 
+
+
+
+.about-container{
+  grid-template-columns:repeat(1,  1fr);
+  text-align:center;
+  
+}
+
+
+.about-info{
+   padding:0 2em;
+}
+
+
+
+
+
+
+
+
 .footer-details:nth-child(2){
     margin-left:0em;
 }
