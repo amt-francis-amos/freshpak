@@ -320,10 +320,15 @@ footer {
     height:40px;
     font-size:20px;
     text-align:center;
-    padding:8px;
+    padding:10px;
     border-radius: 50%;
     background-color:var(--light-color);
     
+}
+
+.social-media i:hover{
+    background:var(--green-color);
+    color:var(--light-color);
 }
 
 
