@@ -191,7 +191,7 @@ nav ul li a:hover::after {
 
  .gallery-img, .feedback-img{
   background:#054709;
-  /* animation: breakBackground 5s infinite alternate; */
+
 }
 
 .about-img{
@@ -199,28 +199,26 @@ nav ul li a:hover::after {
   url("../images/aboutbanner.jpg");
 }
 
-
-
-
-
-@keyframes breakBackground {
-  0% {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    opacity: 1;
-  }
-  100% {
-    clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
-    opacity: 0.8;
-  }
-}
-
-
-
 .about-container{
   width:100%;
   display:grid;
   grid-template-columns:repeat(2,  1fr);
   gap:3em;
+}
+
+.about-info h1{
+  margin-bottom:1.2em;
+}
+
+
+.about-info h1::after{
+  content:'';
+     width:30px;
+     height:4px;
+     border-radius:5px;
+     background:var(--green-color);
+     display:block;
+     margin:0.3em 0;
 }
 
 /* ------END OF ABOUT PAGE STYLING---- */
