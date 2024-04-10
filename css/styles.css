@@ -189,29 +189,10 @@ nav ul li a:hover::after {
 
 /* ------ABOUT PAGE STYLING---- */
 
-.about-img{
+.about-img, .product-img{
   background:#054709;
 }
 
-.title{
-   min-height:30vh;
-   margin-top:5em;
-   display:flex;
-   align-items:center;
-   justify-content:center;
-}
-
-
-.about-img h1{
-  color:var(--light-color);
-  font-size:3rem;
-}
-
-.about-info h1{
-  color:var(--green-color);
-  font-size:2rem;
-  margin-bottom:0.3em;
-}
 
 
 .about-container{

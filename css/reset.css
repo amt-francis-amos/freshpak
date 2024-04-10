@@ -25,6 +25,15 @@ section{
     padding:80px 0;
 }
 
+.title h1{
+  min-height:20vh;
+  margin-top:2em;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:var(--light-color);
+  font-size:3rem;
+}
 
 
 .bg-cover{
