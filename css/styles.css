@@ -9,6 +9,7 @@
 
 body {
   overflow-x: hidden;
+  position: relative;
 }
 
 /* -- GLOBAL VARIABLES ------ */
@@ -275,14 +276,14 @@ nav ul li a:hover::after {
 .contact-info{
   display:flex;
   align-items:center;
-  gap:1em;
+
  
 }
 
 
 
 .contact-box{
-   width:200px;
+   width:300px;
    height:200px;
    text-align:center;
    background:var(--light-color);
@@ -585,11 +586,13 @@ footer {
 }
 
 
-
+.contact-info{
+  flex-direction:column;
+}
 
 .contact-container{
   grid-template-columns:repeat(1,  1fr);
-  text-align:center;
+
   
 }
 
@@ -597,6 +600,11 @@ footer {
   margin:auto;
 }
 
+.contact-img{
+   width:100%;
+   min-height:300px;
+   object-fit:cover;
+}
 
 
 .footer-details:nth-child(2){
