@@ -198,9 +198,7 @@ footer {
   color: var(--light-color);
 }
 
-.footer-details p{
-    max-width:400px;
-}
+
 
 .footer-details:nth-child(2){
     margin-left:4em;
