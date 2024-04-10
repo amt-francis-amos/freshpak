@@ -189,7 +189,7 @@ nav ul li a:hover::after {
 
 /* ------ABOUT PAGE STYLING---- */
 
- .product-img, .gallery-img, .feedback-img{
+ .gallery-img, .feedback-img{
   background:#054709;
   /* animation: breakBackground 5s infinite alternate; */
 }
@@ -224,6 +224,36 @@ nav ul li a:hover::after {
 }
 
 /* ------END OF ABOUT PAGE STYLING---- */
+
+
+
+
+/* ------PRODUCT PAGE STYLING---- */
+
+.product-img{
+  background-image: linear-gradient(rgba(89, 180, 15, 0.6), rgba(0, 0, 0, 0.6)),
+  url("../images/warehouse-3.jpg");
+  min-height:470px;
+}
+
+
+
+/* ------END OF PRODUCT PAGE STYLING---- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
