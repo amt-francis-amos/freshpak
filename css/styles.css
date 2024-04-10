@@ -189,10 +189,19 @@ nav ul li a:hover::after {
 
 /* ------ABOUT PAGE STYLING---- */
 
-.about-img, .product-img, .gallery-img, .feedback-img{
+ .product-img, .gallery-img, .feedback-img{
   background:#054709;
   /* animation: breakBackground 5s infinite alternate; */
 }
+
+.about-img{
+  background-image: linear-gradient(rgba(109, 214, 18, 0.6), rgba(0, 0, 0, 0.6)),
+  url("../images/about-us.jpg");
+}
+
+
+
+
 
 @keyframes breakBackground {
   0% {
