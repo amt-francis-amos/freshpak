@@ -264,6 +264,22 @@ footer {
     display: none;
   }
 
+
+  .company-container{
+    grid-template-columns:repeat(1,  1fr);
+  
+}
+
+.company-info p{
+    max-width:400px;
+    margin:2em auto;
+}
+
+
+
+
+
+
   .footer-container{
     grid-template-columns:repeat(1,  1fr);
     text-align:center;
