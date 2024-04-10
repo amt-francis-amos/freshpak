@@ -189,7 +189,7 @@ nav ul li a:hover::after {
 
 /* ------ABOUT PAGE STYLING---- */
 
-.about-img, .product-img{
+.about-img, .product-img, .gallery-img, .feedback-img, .contact-img{
   background:#054709;
 }
 
