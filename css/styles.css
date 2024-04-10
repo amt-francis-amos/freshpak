@@ -38,6 +38,7 @@ header {
 }
 
 .header-row {
+ width:100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -50,11 +51,12 @@ header {
 .site-nav {
   display: flex;
   align-items: center;
-  gap: 2em;
+  gap:1em;
 }
 
 nav ul {
   list-style: none;
+  margin-top:0.7em;
 }
 
 nav ul li {
@@ -260,6 +262,17 @@ footer {
 }
 
 
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #078d10; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #054709; 
+}
 
 
 
@@ -325,7 +338,9 @@ footer {
 }
 
 
-
+.footer-details:nth-child(2){
+    margin-left:0em;
+}
 
 
 
