@@ -110,14 +110,10 @@ nav ul li a:hover::after {
 
 /* ------ HERO STYLING----- */
 .hero-img {
-  width: 100%;
-  min-height: 470px;
-  object-fit:cover;
+  
   background-image: linear-gradient(rgba(109, 214, 18, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/light-green.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+ 
 }
 
 .hero-content {
@@ -188,10 +184,48 @@ nav ul li a:hover::after {
     color:var(--green-color);
 }
 
-
-
-
 /* ----END OF  VISION & MISSION--- */
+
+
+/* ------ABOUT PAGE STYLING---- */
+
+.about-img{
+  background-image: linear-gradient(rgba(109, 214, 18, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/green.jpg");
+}
+
+/* ------END OF ABOUT PAGE STYLING---- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
