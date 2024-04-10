@@ -576,6 +576,16 @@ footer {
    padding:0 2em;
 }
 
+
+
+.about-info h1::after{
+     margin:auto;
+}
+
+
+
+
+
 .title h1{
 
   font-size:1.5rem;
