@@ -129,6 +129,7 @@ nav ul li a:hover::after {
 }
 
 .content-box a {
+  font-weight:900;
   gap: 1em;
 }
 
