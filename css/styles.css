@@ -113,7 +113,7 @@ nav ul li a:hover::after {
   
   background-image: linear-gradient(rgba(109, 214, 18, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/light-green.jpg");
-    animation: breakBackground 5s infinite alternate;
+  
 }
 
 .hero-content {
@@ -191,7 +191,7 @@ nav ul li a:hover::after {
 
 .about-img, .product-img, .gallery-img, .feedback-img, .contact-img{
   background:#054709;
-  animation: breakBackground 5s infinite alternate;
+  /* animation: breakBackground 5s infinite alternate; */
 }
 
 @keyframes breakBackground {
