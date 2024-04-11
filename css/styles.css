@@ -455,6 +455,9 @@ textarea.form-control {
   border:1px solid var(--lemon-green)
 }
 
+.contact-map iframe{
+   width:100%;
+}
 
 
 /* -----END OF CONTACT STYLING----- */
