@@ -722,6 +722,15 @@ footer {
 }
 
 
+.feedback-form {
+  width:100%;
+  padding:0 1.5em;
+}
+
+.form-control{
+  width:78%;
+}
+
 .contact-info{
   flex-direction:column;
 }
