@@ -210,15 +210,16 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="js/script.js"></script>
 
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
 
     <script>
       function sendEmail() {
         Email.send({
-          Host: "smtp.gmail.com",
+            Host : "smtp.elasticemail.com",
           Username: "sugartone45@yahoo.com",
-          Password: "Freshpak@2024",
-          To: "Freshpakproducts@gmail.com",
+          Password: "DF0109ECC5C54491637838023E1E52F9C0F6",
+          To: "sugartone45@yahoo.com",
           From: document.getElementById("email").value,
           Subject: "FreshPak Contact Form Enquiry",
           Body: "And this is the body",
