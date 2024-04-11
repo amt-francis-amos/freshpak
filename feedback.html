@@ -81,7 +81,13 @@
         <div class="container">
            <div class="rate-container">
             <div class="rate-info">
-                <form class="feedback-form" data-scroll>
+                <form  method="POST" id="form"     class="feedback-form" data-scroll>
+
+                    <input type="hidden" name="access_key" value="f9a1653a-23a7-4d5b-b1cd-92d39a1d8d7d">
+                    <input type="hidden" name="subject" value="New Freshpak Enquiry">
+                    <input type="hidden" name="comment" value="New Feedback Enquiry">
+                    <input type="checkbox" name="botcheck" id="" style="display: none;">
+
                     <h2>Rate our service:</h2>
                     <div class="form-group">
                         <label for="rating">Rating:</label>
@@ -99,6 +105,7 @@
                     </div>
                     <button type="submit" class="btn-3">Submit</button>
                 </form>
+                <div id="result"></div>
             </div>
             <div class="rate-info" data-scroll>
                 
