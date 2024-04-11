@@ -228,6 +228,11 @@ nav ul li a:hover::after {
 
 
 /* ------PRODUCT PAGE STYLING---- */
+.product-img{
+  background-image: linear-gradient(rgba(89, 180, 15, 0.6), rgba(0, 0, 0, 0.6)),
+  url("../images/warehouse-3.jpg");
+  min-height:470px;
+}
 
 .intro{
    text-align:center;
@@ -255,6 +260,7 @@ nav ul li a:hover::after {
   width:100%;
   max-width:300px;
   height:40px;
+  margin-top: 1em;
   background:var(--green-color);
   
 }
@@ -266,17 +272,19 @@ nav ul li a:hover::after {
   font-size:1.5rem;
 }
 
-.product-img{
-  background-image: linear-gradient(rgba(89, 180, 15, 0.6), rgba(0, 0, 0, 0.6)),
-  url("../images/warehouse-3.jpg");
-  min-height:470px;
-}
 
 .product-info img{
    width:100%;
    max-width:400px;
    height:50vh;
+   border-radius:8px;
    object-fit:cover;
+   transition:.3s;
+}
+
+
+.product-info img:hover{
+  transform: scale(1.1);
 }
 
 /* ------END OF PRODUCT PAGE STYLING---- */
