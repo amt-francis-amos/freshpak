@@ -29,3 +29,8 @@ function closeMenu(){
     
     show.style.right = "-200px";
 }
+
+
+
+// -- EMAIL CODE
+
