@@ -765,6 +765,10 @@ footer {
 }
 
 
-
+.contact-map iframe {
+  width: 100%;
+  height: 300px;
+  margin:auto;
+}
 
 }
