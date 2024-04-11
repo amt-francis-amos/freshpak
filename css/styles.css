@@ -229,13 +229,55 @@ nav ul li a:hover::after {
 
 /* ------PRODUCT PAGE STYLING---- */
 
+.intro{
+   text-align:center;
+   max-width:600px;
+   margin: 0 auto 1em;
+}
+
+.intro h2{
+  font-size:3rem;
+  margin-bottom:0.5em;
+  color:var(--green-color);
+}
+
+
+.product-container{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+  gap:4em;
+  margin-top:4em;
+
+}
+
+
+.product-name{
+  width:100%;
+  max-width:300px;
+  height:40px;
+  background:var(--green-color);
+  
+}
+
+.product-name h3{
+  text-align:center;
+  color:var(--light-color);
+  padding:0.2em 0;
+  font-size:1.5rem;
+}
+
 .product-img{
   background-image: linear-gradient(rgba(89, 180, 15, 0.6), rgba(0, 0, 0, 0.6)),
   url("../images/warehouse-3.jpg");
   min-height:470px;
 }
 
-
+.product-info img{
+   width:100%;
+   max-width:400px;
+   height:50vh;
+   object-fit:cover;
+}
 
 /* ------END OF PRODUCT PAGE STYLING---- */
 
@@ -592,7 +634,10 @@ footer {
 }
 
 
-
+.product-info{
+    width:70%;
+    margin:0 auto;
+}
 
 
 .contact-info{
