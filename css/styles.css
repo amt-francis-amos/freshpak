@@ -125,7 +125,7 @@ nav ul li a:hover::after {
 .content-box {
   display: flex;
   flex-direction: column;
-  margin-top: 5em;
+  margin-top: 2em;
 }
 
 .content-box a {
@@ -641,7 +641,6 @@ footer {
 .header-row{
     margin-top:1em;
 }
-
 
 
 .content-box h1{
