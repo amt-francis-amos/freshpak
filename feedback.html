@@ -77,11 +77,35 @@
 
 
 
-        <section>
-           <div class="container">
-           
+    <section>
+        <div class="container">
+           <div class="rate-container">
+            <div class="rate-info">
+                <form action="submit_feedback.php" method="POST" class="feedback-form">
+                    <h2>Rate our service:</h2>
+                    <div class="form-group">
+                        <label for="rating">Rating:</label>
+                        <select name="rating" id="rating" class="form-control">
+                            <option value="5">Excellent</option>
+                            <option value="4">Good</option>
+                            <option value="3">Average</option>
+                            <option value="2">Poor</option>
+                            <option value="1">Very Poor</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Comments:</label>
+                        <textarea id="comment" name="comment" rows="4" cols="50" class="form-control"></textarea>
+                    </div>
+                    <button type="submit" class="btn-3">Submit</button>
+                </form>
+            </div>
+            <div class="rate-info">
+                <img src="images/logo.png" alt="">
+            </div>
            </div>
-        </section>
+        </div>
+    </section>
     
     </main>
 

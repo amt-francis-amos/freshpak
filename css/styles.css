@@ -290,7 +290,71 @@ nav ul li a:hover::after {
 /* ------END OF PRODUCT PAGE STYLING---- */
 
 
+/* ---FEEDBACK STYLING ---- */
 
+.feedback-form {
+  margin-top: 50px;
+}
+
+.feedback-form h2 {
+  font-size:2rem;
+  color:var(--green-color);
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline:none;
+
+}
+
+textarea.form-control {
+  resize:none; 
+  min-height: 100px; 
+}
+
+.btn-3 {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color:var(--green-color);
+  color:var(--lemon-green);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size:1rem;
+  text-transform: uppercase;
+  font-weight:700;
+}
+
+.btn-3:hover {
+  background-color:var(--lemon-green);
+  color: var(--green-color);
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.rate-container{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+  gap:4em;
+}
+
+/* ---END OF FEEDBACK STYLING ---- */
 
 
 
