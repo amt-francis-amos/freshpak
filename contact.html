@@ -94,12 +94,17 @@
             </div>
             <div class="contact-info">
               <div class="form-wrapper" data-scroll>
-                <form onsubmit="sendEmail(); reset(); return false;">
+                <form method="POST" id="form">
+
+                    <input type="hidden" name="access_key" value="f9a1653a-23a7-4d5b-b1cd-92d39a1d8d7d">
+                    <input type="hidden" name="subject" value="New Submission from Web3Forms">
+                    <input type="checkbox" name="botcheck" id="" style="display: none;">
                   <div>
                     <label>Name:</label>
                     <input
                       type="text"
                       id="name"
+                      name="name"
                       placeholder="Please Enter Your Name"
                       required
                     />
@@ -108,6 +113,7 @@
                     <label>Email:</label>
                     <input
                       type="email"
+                      name="email"
                       id="email"
                       placeholder="Please Enter Your Email"
                       required
@@ -118,6 +124,7 @@
                     <input
                       type="text"
                       id="phone"
+                      name="phone"
                       placeholder="Please Enter Your Phone Number"
                       required
                     />
@@ -126,11 +133,13 @@
                     <textarea
                       rows="4"
                       id="message"
+                      name="message"
                       placeholder="Your Message Here"
                     ></textarea>
                   </div>
                   <button type="submit" class="btn btn-2">SEND MESSAGE</button>
                 </form>
+                <div id="result"></div>
               </div>
             </div>
           </div>
@@ -210,21 +219,8 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="js/script.js"></script>
 
-    <script src="https://smtpjs.com/v3/smtp.js">
-    </script>
+    
 
-    <script>
-      function sendEmail() {
-        Email.send({
-            Host : "smtp.elasticemail.com",
-          Username: "sugartone45@yahoo.com",
-          Password: "DF0109ECC5C54491637838023E1E52F9C0F6",
-          To: "sugartone45@yahoo.com",
-          From: document.getElementById("email").value,
-          Subject: "FreshPak Contact Form Enquiry",
-          Body: "And this is the body",
-        }).then((message) => alert(message));
-      }
-    </script>
+   
   </body>
 </html>
