@@ -1,15 +1,9 @@
 
-// ----SCROLL EFFECTS --------------------------------
-ScrollReveal().reveal('[data-scroll]', {
-    delay: 300,
-    distance: '50px',
-    origin: 'bottom',
-    duration: 1000,
-    reset: true
-});
 
 
-// ---- MENU BAR----
+
+// ---MENU-----
+
 let closeBtn = document.getElementById('closeBtn');
 let menuBtn = document.getElementById('menuBtn');
 let show = document.getElementById("nav-links");
@@ -44,10 +38,9 @@ form.addEventListener('submit', function(e) {
   const json = JSON.stringify(object);
   result.innerHTML = "Please wait...";
 
-  // Extract the rating value from the formData object
+
   const rating = formData.get('rating');
 
-  // Now you can include the rating value in the JSON data to be sent
 
   fetch('https://api.web3forms.com/submit', {
           method: 'POST',
@@ -77,3 +70,4 @@ form.addEventListener('submit', function(e) {
           }, 3000);
       });
 });
+
