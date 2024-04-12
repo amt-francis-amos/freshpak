@@ -573,7 +573,18 @@ footer {
 
 /* ---RESPONSIVENESS----- */
 
+@media(max-width:600px){
+    .product-info img{
+      width:100%;
+      min-height:400px;
+      object-fit:cover;
+     
+    }
 
+    
+
+
+}
 
 
 
