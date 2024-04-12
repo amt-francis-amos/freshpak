@@ -519,6 +519,10 @@ footer {
     font-size:0.9rem;
 }
 
+.footer-details ul li a:hover{
+   color:var(--lemon-green);
+}
+
 .social-media{
    margin-top:1rem;
 }
