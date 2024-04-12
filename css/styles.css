@@ -113,24 +113,23 @@ nav ul li a:hover::after {
 .hero-img {
   background-image: linear-gradient(rgba(109, 214, 18, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/light-green.jpg");
-  
+
 }
 
 .hero-content {
   text-align: center;
-
+  width:100%;
+  max-width:600px;
+  margin:auto;
+ 
 }
 
-.content-box {
-  display: flex;
-  flex-direction: column;
-  position:absolute;
-  left:50%;
-  top:20%;
-  transform:translate(-50%, -50%);
+.content-box{
+   margin-top:5em;
 }
 
-.content-box a {
+
+.hero-content a {
   font-weight:900;
   gap: 1em;
 }
@@ -574,14 +573,7 @@ footer {
 
 /* ---RESPONSIVENESS----- */
 
-@media (max-width:600px) {
-  .content-box{
-    font-size:1rem;
-    width:80%;
 
-}
-
-}
 
 
 
@@ -669,21 +661,16 @@ footer {
 }
 
 
-.content-box {
-  top:10%;
-  width:85%;
-  max-width:500px;
+.hero-content{
+   max-width:500px;
+   padding:0 1em;
 }
 
-.content-box h1{
-    font-size:1.5rem;
-    margin:1em auto;
-    padding:0 1em;
+
+.content-box h1 {
+    font-size:1.5em;
 }
 
-.content-box h2{
-    font-size:1.2rem;
-}
 
 
 
