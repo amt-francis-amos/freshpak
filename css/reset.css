@@ -38,7 +38,7 @@ section{
 
 .bg-cover{
   width: 100%;
-  min-height:470px;
+  min-height:370px;
   object-fit:cover;
   background-size: cover;
   background-position: center;
