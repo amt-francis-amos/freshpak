@@ -117,15 +117,17 @@ nav ul li a:hover::after {
 }
 
 .hero-content {
-  max-width: 700px;
   text-align: center;
-  margin: auto;
+
 }
 
 .content-box {
   display: flex;
   flex-direction: column;
-  margin-top: 2em;
+  position:absolute;
+  left:50%;
+  top:20%;
+  transform:translate(-50%, -50%);
 }
 
 .content-box a {
@@ -136,7 +138,7 @@ nav ul li a:hover::after {
 .hero-content h1 {
   font-size: 2rem;
   color: var(--light-color);
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
   letter-spacing: 1px;
 }
 
@@ -572,6 +574,18 @@ footer {
 
 /* ---RESPONSIVENESS----- */
 
+@media (max-width:600px) {
+  .content-box{
+    font-size:0.8rem;
+    width:80%;
+
+}
+
+}
+
+
+
+
 @media (max-width:992px) {
   header {
     padding: 0 30px;
@@ -655,9 +669,13 @@ footer {
 }
 
 
+.content-box {
+  top:10%;
+  width:75%;
+}
+
 .content-box h1{
-    font-size:1.5rem;
-    max-width:500px;
+    font-size:1.6rem;
     margin:1em auto;
     padding:0 1em;
 }
