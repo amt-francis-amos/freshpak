@@ -191,10 +191,7 @@ nav ul li a:hover::after {
 
 /* ------ABOUT PAGE STYLING---- */
 
- .gallery-img, .feedback-img{
-  background:#054709;
 
-}
 
 .about-img{
   background-image: linear-gradient(rgba(89, 180, 15, 0.6), rgba(0, 0, 0, 0.6)),
@@ -292,6 +289,12 @@ nav ul li a:hover::after {
 
 
 /* ---FEEDBACK STYLING ---- */
+
+.feedback-img{
+  background-image: linear-gradient(rgba(89, 180, 15, 0.6), rgba(0, 0, 0, 0.6)),
+  url("../images/feedback.jpg");
+}
+
 
 .feedback-form {
   margin-top: 50px;
